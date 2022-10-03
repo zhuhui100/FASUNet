@@ -1,4 +1,5 @@
 # FASUNet
+## FAS-UNet: A Novel FAS-driven Unet to Learn Variational Image Segmentation
 
 This repository provides the code for paper: "FAS-UNet: A Novel FAS-driven Unet to Learn Variational Image Segmentation".
 
