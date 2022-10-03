@@ -11,4 +11,4 @@ Preprocess the dataset and save as ".npy" according to our paper. Split the prep
 Place the ".npy" files in the "dataset_2D"(SegTHOR) or "01-chaos-overlap"(CHAOS CT) directory.
 
 
-Run "main_train.py" to train and test.
+Run "main_mgunet_2d_374.py" or "main_fas_32_chaos_380_v2.py" to train and test 2D FAS-Unet or 3D FAS-Unet, respectively.
