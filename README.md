@@ -1,6 +1,6 @@
 # FAS-UNet: A Novel FAS-driven Unet to Learn Variational Image Segmentation
 
-This repository provides the code for paper: "FAS-UNet: A Novel FAS-driven Unet to Learn Variational Image Segmentation".
+This repository provides the code for paper: "[FAS-UNet: A Novel FAS-driven Unet to Learn Variational Image Segmentation](https://www.mdpi.com/2227-7390/10/21/4055)".
 
 First, you can download the dataset at https://competitions.codalab.org/competitions/21145 (SegTHOR), or 
 http://segchd.csail.mit.edu/index.html (HVSMR 2016), or 
