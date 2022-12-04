@@ -1,5 +1,5 @@
 """
-mgunet 2D 形式
+        fas-unet 2D
 """
 
 import torch
