@@ -160,7 +160,7 @@ class Right_u_init(nn.Module):
 
 class FASUNet(nn.Module):
     """
-    mg-unet 网络
+     fas-unet
     """
     def __init__(self, in_dim, n_classes, init_c=16):
         super(FASUNet, self).__init__()
@@ -178,7 +178,7 @@ class FASUNet(nn.Module):
         ### encode 2
         self.encode_2 = Conv_block_left(E2_A, init_c)
         E3_A = nn.Conv2d(init_c, init_c, kernel_size=3, stride=1, padding=1, bias=False)
-        self.restriction_2_3 = Restriction(E3_A, E3_A, init_c)      
+        self.restriction_2_3 = Restriction(E2_A, E3_A, init_c)      
 
         ### encode 3
         self.encode_3 = Conv_block_left(E3_A, init_c)
